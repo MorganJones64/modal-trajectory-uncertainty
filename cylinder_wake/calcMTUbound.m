@@ -45,8 +45,8 @@ clear u1 u2 u3 u4 ut umean v1 v2 v3 v4 vt vmean
 
 % Time parameters
 tVec = (0:1:(nt-1)) * dt';
-yVec = y;
-xVec = x;
+yVec = y';
+xVec = x';
 
 % Create interpolation functions
 fprintf('Creating interpolation functions...\n');
