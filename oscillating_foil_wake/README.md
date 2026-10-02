@@ -14,7 +14,7 @@ Following equation `osc-sys1` in the paper:
 
 - Baseline: $\tilde{\mathbf{u}}=\bar{\mathbf{u}}+\mathbf{u}_1$
 - Perturbation: $\mathbf{u}'=\mathbf{u}_2$
-- Perturbed system: $\tilde{\mathbf{u}}+\mathbf{u}'=\bar{\mathbf{u}}+\mathbf{u}_1+\mathbf{u}_2$
+- Modal Representation: $\tilde{\mathbf{u}}+\mathbf{u}'=\bar{\mathbf{u}}+\mathbf{u}_1+\mathbf{u}_2$
 
 The mean and four unsteady mode pairs are obtained with constrained optimized DMD. The eigenvalues are restricted to the imaginary axis so the fitted modes are periodic and have no growth or decay.
 
